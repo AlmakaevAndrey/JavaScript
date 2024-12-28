@@ -5,7 +5,7 @@
 let a = null;
 
 // a = a || 20;
-a ||= 20;
+// a ||= 20;
 
 console.log(a)
 

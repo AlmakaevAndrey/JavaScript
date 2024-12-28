@@ -68,4 +68,3 @@ const myAge = 20;
 // myAge < 18 ? console.log("можно все!") : console.log('погоди еще!');
 const check = myAge > 18 ? 'можно все' : 'погоди еще';
 
-console.log(check);

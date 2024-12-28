@@ -66,9 +66,3 @@ const formattedGreeting = formatGreeting;
 
 log(formattedGreeting("Andrey","🦇"));
 
-function  greet(name, greet = "Hello"){
-    return`Hello ${name} ${greet}`;
-}
- 
-console.log(greet("Alice")); // Вывод: "Hello, Alice!"
-console.log(greet("Bob", "Good morning")); // Вывод: "Good morning, Bob!"

@@ -11,12 +11,12 @@ let a;
 a = 1 || 2; // 1
 a = 0 || 2; // 2
 
-a = true || false;
-a = false || true;
-a = false || false;
+a = true || false; // true
+a = false || true; // true
+a = false || false; // false
 
-a = false || false || true;
-a = null || undefined || 1;
+a = false || false || true; // true
+a = null || undefined || 1; // 
 
 // console.log(a);
 
@@ -123,3 +123,4 @@ d = 0 ?? 2;
 d = null ?? false;
 
 console.log(d);
+

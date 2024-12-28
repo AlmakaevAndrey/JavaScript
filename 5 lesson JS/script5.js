@@ -76,5 +76,3 @@ console.log(greeting);
 console.log(1 + "1");
 console.log(1 + 100);
 
-
-
