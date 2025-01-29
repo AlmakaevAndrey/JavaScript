@@ -1,0 +1,16 @@
+body {
+    margin: 100px;
+    background-color: rgb(13, 148, 103);
+}
+
+button {
+    border: 1px solid black;
+    padding: 1em;
+    text-align: center;
+    background-color: rgb(173, 0, 0);
+    color: white;
+}
+
+.subscription {
+    background-color: aquamarine;
+}

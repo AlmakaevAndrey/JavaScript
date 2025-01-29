@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script34.js" defer></script>
+    <title>Events</title>
+    <style>
+        body {
+            background-color: bisque;
+        }
+        .borders {
+            padding: 1em;
+            border: 1px solid orangered;
+        }
+        .borders p {
+            border: 1px solid lightseagreen;
+        }
+        table {
+            width: max-content;
+            border-collapse: collapse;
+        }
+        td {
+            padding: 1em;
+            width: 80px;
+            height: 80px;
+            border: 1px solid lightblue;
+        }
+        .highlight {
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <div data-contained class="borders">
+        <p>кликните
+            <strong>тут</strong>
+            и сработает обработчик на DIV
+        </p>
+    </div>
+    <!-- <section data-table></section> -->
+    <table data-numpad>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+    </table>
+    <hr>
+</body>
+</html>
